@@ -1,56 +1,44 @@
 [
-    {
-        "content": "Thông báo về việc nhận bằng tốt nghiệp đợt 4 năm 2024",
-        "date": "16/01/2025",
-        "hour_minute": "15:36",
-        "link": "/thong-bao-ve-viec-nhan-bang-tot-nghiep-dot-4-nam-2024"
-    },
-    {
-        "content": "Kết quả ĐKHP (đợt 2) và Thời khóa biểu học kỳ 2 năm học 2024",
-        "date": "2025_Chương trình chuẩn",
-        "hour_minute": "13/01/2025",
-        "link": "/ket-qua-dkhp-dot-2-va-thoi-khoa-bieu-hoc-ky-2-nam-hoc-2024-2025chuong-trinh-chuan"
-    },
-    {
-        "content": "Kết quả ĐKHP (đợt 1) học kỳ 2 năm học 2024",
-        "date": "2025",
-        "hour_minute": "06/01/2025",
-        "link": "/ket-qua-dkhp-dot-1-hoc-ky-2-nam-hoc-2024-2025"
-    },
-    {
-        "content": "Thông báo thu học phí học kỳ 2, năm học 2024",
-        "date": "2025",
-        "hour_minute": "27/12/2024",
-        "link": "/thong-bao-thu-hoc-phi-hoc-ky-2-nam-hoc-2024-2025"
-    },
-    {
-        "content": "Thông báo lịch ĐKHP và TKB dự kiến các lớp chính quy đại trà HK2 năm học 2024",
-        "date": "2025",
-        "hour_minute": "25/12/2024",
-        "link": "/thong-bao-lich-dkhp-va-tkb-du-kien-cac-lop-chinh-quy-dai-tra-hk2-nam-hoc-2024-2025"
-    },
-    {
-        "content": "Thông báo khảo sát ý kiến SV về hoạt động giảng dạy của GV HKI",
-        "date": "NH 2024",
-        "hour_minute": "2025",
-        "link": "/thong-bao-khao-sat-y-kien-sv-ve-hoat-dong-giang-day-cua-gv-hki-nh-2024-2025"
-    },
-    {
-        "content": "Thông báo: Sinh viên kiểm tra chuẩn quá trình ngoại ngữ trước khi đăng ký học phần HK2 năm học 2024",
-        "date": "2025",
-        "hour_minute": "12/12/2024",
-        "link": "/thong-bao-sinh-vien-kiem-tra-chuan-qua-trinh-ngoai-ngu-truoc-khi-dang-ky-hoc-phan-hk2-nam-hoc-2024"
-    },
-    {
-        "content": "Thông báo nhận đơn nhập học lại, bảo lưu, chuyển ngành, song ngành, thôi học HK 2 2024",
-        "date": "2025",
-        "hour_minute": "10/12/2024",
-        "link": "/thong-bao-nhan-don-nhap-hoc-lai-bao-luu-chuyen-nganh-song-nganh-thoi-hoc-hk-2-2024-2025"
-    },
-    {
-        "content": "Thông báo kế hoạch ĐKHP HK2 năm học 2024",
-        "date": "2025",
-        "hour_minute": "27/11/2024",
-        "link": "/thong-bao-ke-hoach-dkhp-hk2-nam-hoc-2024-2025"
-    }
+  {
+    "content": "Kết quả ĐKHP (đợt 1) học kỳ 2 năm học 2024",
+    "date": "2025",
+    "hour_minute": "06/01/2025",
+    "link": "/ket-qua-dkhp-dot-1-hoc-ky-2-nam-hoc-2024-2025"
+  },
+  {
+    "content": "Thông báo thu học phí học kỳ 2, năm học 2024",
+    "date": "2025",
+    "hour_minute": "27/12/2024",
+    "link": "/thong-bao-thu-hoc-phi-hoc-ky-2-nam-hoc-2024-2025"
+  },
+  {
+    "content": "Thông báo lịch ĐKHP và TKB dự kiến các lớp chính quy đại trà HK2 năm học 2024",
+    "date": "2025",
+    "hour_minute": "25/12/2024",
+    "link": "/thong-bao-lich-dkhp-va-tkb-du-kien-cac-lop-chinh-quy-dai-tra-hk2-nam-hoc-2024-2025"
+  },
+  {
+    "content": "Thông báo khảo sát ý kiến SV về hoạt động giảng dạy của GV HKI",
+    "date": "NH 2024",
+    "hour_minute": "2025",
+    "link": "/thong-bao-khao-sat-y-kien-sv-ve-hoat-dong-giang-day-cua-gv-hki-nh-2024-2025"
+  },
+  {
+    "content": "Thông báo: Sinh viên kiểm tra chuẩn quá trình ngoại ngữ trước khi đăng ký học phần HK2 năm học 2024",
+    "date": "2025",
+    "hour_minute": "12/12/2024",
+    "link": "/thong-bao-sinh-vien-kiem-tra-chuan-qua-trinh-ngoai-ngu-truoc-khi-dang-ky-hoc-phan-hk2-nam-hoc-2024"
+  },
+  {
+    "content": "Thông báo nhận đơn nhập học lại, bảo lưu, chuyển ngành, song ngành, thôi học HK 2 2024",
+    "date": "2025",
+    "hour_minute": "10/12/2024",
+    "link": "/thong-bao-nhan-don-nhap-hoc-lai-bao-luu-chuyen-nganh-song-nganh-thoi-hoc-hk-2-2024-2025"
+  },
+  {
+    "content": "Thông báo kế hoạch ĐKHP HK2 năm học 2024",
+    "date": "2025",
+    "hour_minute": "27/11/2024",
+    "link": "/thong-bao-ke-hoach-dkhp-hk2-nam-hoc-2024-2025"
+  }
 ]

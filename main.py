@@ -90,6 +90,7 @@ def work_flow():
         message = create_message(news)
         response = send_telegram_message(message)
         print(f"New noti(s) sent. - {datetime.now()}")
+        print(f"\t- {response}")
     else:
         print(f"No new notis found. - {datetime.now()}")
 
@@ -97,4 +98,4 @@ def work_flow():
 if __name__ == "__main__":
     while True:
         work_flow()
-        time.sleep(300)
+        time.sleep(3)
