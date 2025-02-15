@@ -105,6 +105,9 @@ def work_flow():
 
 
 if __name__ == "__main__":
-    while True:
-        work_flow()
-        time.sleep(3)
+    for key, value in os.environ.items():
+        print(f"{key}: {value}")
+
+    # while True:
+    #     work_flow()
+    #     time.sleep(3)
