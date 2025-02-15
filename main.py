@@ -108,6 +108,6 @@ if __name__ == "__main__":
     for key, value in os.environ.items():
         print(f"{key}: {value}")
 
-    # while True:
-    #     work_flow()
-    #     time.sleep(3)
+    while True:
+        work_flow()
+        time.sleep(3)
