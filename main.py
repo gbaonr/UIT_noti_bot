@@ -75,7 +75,7 @@ def send_telegram_message(message):
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
     payload = {"chat_id": CHAT_ID, "text": message, "parse_mode": "HTML"}
     response = requests.post(url, json=payload)
-    return response.json()
+    return response.json(), url
 
 
 def work_flow():
@@ -86,11 +86,18 @@ def work_flow():
         last_notification = []
     if latest_notification and latest_notification != last_notification:
         news = [x for x in latest_notification if x not in last_notification]
-        save_last_notification(latest_notification)
         message = create_message(news)
-        response = send_telegram_message(message)
-        print(f"New noti(s) sent. - {datetime.now()}")
-        print(f"\t- {response}")
+        response, url = send_telegram_message(message)
+        print(f"Found new noti(s)  - {datetime.now()}")
+        if not response["ok"]:
+            print(f"\t- Error sent❌")
+            print(f"\t- {response}")
+            print(f"\t- TOKEN: {TOKEN}")
+            print(f"\t- CHAT_ID: {CHAT_ID}")
+            print(f"\t- url: {url}")
+        else:
+            save_last_notification(latest_notification)
+            print(f"\t- Sent to telegram✅")
     else:
         print(f"No new notis found. - {datetime.now()}")
 
