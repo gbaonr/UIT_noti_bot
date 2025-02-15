@@ -94,9 +94,11 @@ def work_flow():
         if not response["ok"]:
             print(f"\t- Error sent❌")
             print(f"\t- {response}")
-            print(f"\t- TOKEN: {TOKEN}")
-            print(f"\t- CHAT_ID: {CHAT_ID}")
             print(f"\t- url: {url}")
+            if not CHAT_ID:
+                print(f"\t- CHAT_ID not found")
+            if not TOKEN:
+                print(f"\t- TOKEN not found")
         else:
             save_last_notification(latest_notification)
             print(f"\t- Sent to telegram✅")
@@ -105,9 +107,6 @@ def work_flow():
 
 
 if __name__ == "__main__":
-    for key, value in os.environ.items():
-        print(f"{key}: {value}")
-
     while True:
         work_flow()
-        time.sleep(3)
+        time.sleep(300)
