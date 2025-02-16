@@ -116,6 +116,9 @@ if __name__ == "__main__":
             work_flow(100)
         except Exception as e:
             print(f"🚨🚨🚨 Error: {e}")
+            continue
+
         next_scan_time = datetime.now() + timedelta(hours=12)
         print(f"\t- Next scan in {next_scan_time.strftime('%Y-%m-%d %H:%M:%S')}")
+
         time.sleep(3600 * 12)
