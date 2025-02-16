@@ -113,9 +113,11 @@ def work_flow():
 if __name__ == "__main__":
     while True:
         try:
-            work_flow(100)
+            work_flow()
         except Exception as e:
             print(f"🚨🚨🚨 Error: {e}")
+            print(f"\t- Retrying in 5 minutes")
+            time.sleep(300)
             continue
 
         next_scan_time = datetime.now() + timedelta(hours=12)
