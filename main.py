@@ -1,5 +1,5 @@
 import requests
-from datetime import datetime
+from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 import json
 import time
@@ -67,7 +67,7 @@ def create_message(news):
     text = "🔔🔔🔔🔔🔔\n"
     for new in news:
         text += f"<b>{new['content']}</b>\n"
-        text += f"Ngày: {new['date']} - {new['hour_minute']}\n"
+        text += f"Time: {new['date']} - {new['hour_minute']}\n"
         text += f"Link: https://student.uit.edu.vn/{new['link']}\n"
         text += "-" * 20 + "\n"
     return text
@@ -92,7 +92,7 @@ def work_flow():
         response, url = send_telegram_message(message)
         print(f"Found new noti(s)  - {datetime.now()}")
         if not response["ok"]:
-            print(f"\t- Error sent❌")
+            print(f"\t- Error sent ❌")
             print(f"\t- {response}")
             print(f"\t- url: {url}")
             if not CHAT_ID:
@@ -101,12 +101,21 @@ def work_flow():
                 print(f"\t- TOKEN not found")
         else:
             save_last_notification(latest_notification)
-            print(f"\t- Sent to telegram✅")
+            print(f"\t- Sent to telegram ✅")
     else:
         print(f"No new notis found. - {datetime.now()}")
+        url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
+        payload = {"chat_id": CHAT_ID, "text": "Nothing new! ✔ ", "parse_mode": "HTML"}
+        response = requests.post(url, json=payload)
+        print(f"\t- sent: {response}")
 
 
 if __name__ == "__main__":
     while True:
-        work_flow()
-        time.sleep(3600)
+        try:
+            work_flow(100)
+        except Exception as e:
+            print(f"🚨🚨🚨 Error: {e}")
+        next_scan_time = datetime.now() + timedelta(hours=12)
+        print(f"\t- Next scan in {next_scan_time.strftime('%Y-%m-%d %H:%M:%S')}")
+        time.sleep(3600 * 12)
