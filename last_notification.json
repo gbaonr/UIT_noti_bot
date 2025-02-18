@@ -1,56 +1,86 @@
-[
-  {
-    "content": "Thông báo về việc nhận bằng tốt nghiệp đợt 4 năm 2024",
-    "date": "16/01/2025",
-    "hour_minute": "15:36",
-    "link": "/thong-bao-ve-viec-nhan-bang-tot-nghiep-dot-4-nam-2024"
-  },
-  {
-    "content": "Kết quả ĐKHP (đợt 2) và Thời khóa biểu học kỳ 2 năm học 2024",
-    "date": "2025_Chương trình chuẩn",
-    "hour_minute": "13/01/2025",
-    "link": "/ket-qua-dkhp-dot-2-va-thoi-khoa-bieu-hoc-ky-2-nam-hoc-2024-2025chuong-trinh-chuan"
-  },
-  {
-    "content": "Kết quả ĐKHP (đợt 1) học kỳ 2 năm học 2024",
-    "date": "2025",
-    "hour_minute": "06/01/2025",
-    "link": "/ket-qua-dkhp-dot-1-hoc-ky-2-nam-hoc-2024-2025"
-  },
-  {
-    "content": "Thông báo thu học phí học kỳ 2, năm học 2024",
-    "date": "2025",
-    "hour_minute": "27/12/2024",
-    "link": "/thong-bao-thu-hoc-phi-hoc-ky-2-nam-hoc-2024-2025"
-  },
-  {
-    "content": "Thông báo lịch ĐKHP và TKB dự kiến các lớp chính quy đại trà HK2 năm học 2024",
-    "date": "2025",
-    "hour_minute": "25/12/2024",
-    "link": "/thong-bao-lich-dkhp-va-tkb-du-kien-cac-lop-chinh-quy-dai-tra-hk2-nam-hoc-2024-2025"
-  },
-  {
-    "content": "Thông báo khảo sát ý kiến SV về hoạt động giảng dạy của GV HKI",
-    "date": "NH 2024",
-    "hour_minute": "2025",
-    "link": "/thong-bao-khao-sat-y-kien-sv-ve-hoat-dong-giang-day-cua-gv-hki-nh-2024-2025"
-  },
-  {
-    "content": "Thông báo: Sinh viên kiểm tra chuẩn quá trình ngoại ngữ trước khi đăng ký học phần HK2 năm học 2024",
-    "date": "2025",
-    "hour_minute": "12/12/2024",
-    "link": "/thong-bao-sinh-vien-kiem-tra-chuan-qua-trinh-ngoai-ngu-truoc-khi-dang-ky-hoc-phan-hk2-nam-hoc-2024"
-  },
-  {
-    "content": "Thông báo nhận đơn nhập học lại, bảo lưu, chuyển ngành, song ngành, thôi học HK 2 2024",
-    "date": "2025",
-    "hour_minute": "10/12/2024",
-    "link": "/thong-bao-nhan-don-nhap-hoc-lai-bao-luu-chuyen-nganh-song-nganh-thoi-hoc-hk-2-2024-2025"
-  },
-  {
-    "content": "Thông báo kế hoạch ĐKHP HK2 năm học 2024",
-    "date": "2025",
-    "hour_minute": "27/11/2024",
-    "link": "/thong-bao-ke-hoach-dkhp-hk2-nam-hoc-2024-2025"
-  }
-]
+{
+    "tbao_chung": [
+        {
+            "content": "Môn học tương đương SE102 cho SV các khoá 2016, 2017,2018 ngành Kỹ thuật phần mềm        -            10/02/2025 - 09:09",
+            "link": "/mon-hoc-tuong-duong-se102-cho-sv-cac-khoa-2016-20172018-nganh-ky-thuat-phan-mem"
+        },
+        {
+            "content": "Thông báo về việc nhận bằng tốt nghiệp đợt 4 năm 2024        -            16/01/2025 - 15:36",
+            "link": "/thong-bao-ve-viec-nhan-bang-tot-nghiep-dot-4-nam-2024"
+        },
+        {
+            "content": "Kết quả ĐKHP (đợt 2) và Thời khóa biểu học kỳ 2 năm học 2024-2025_Chương trình chuẩn        -            13/01/2025 - 14:34",
+            "link": "/ket-qua-dkhp-dot-2-va-thoi-khoa-bieu-hoc-ky-2-nam-hoc-2024-2025chuong-trinh-chuan"
+        },
+        {
+            "content": "Kết quả ĐKHP (đợt 1) học kỳ 2 năm học 2024-2025        -            06/01/2025 - 09:56",
+            "link": "/ket-qua-dkhp-dot-1-hoc-ky-2-nam-hoc-2024-2025"
+        },
+        {
+            "content": "Thông báo thu học phí học kỳ 2, năm học 2024-2025        -            27/12/2024 - 08:03",
+            "link": "/thong-bao-thu-hoc-phi-hoc-ky-2-nam-hoc-2024-2025"
+        },
+        {
+            "content": "Thông báo lịch ĐKHP và TKB dự kiến các lớp chính quy đại trà HK2 năm học 2024-2025        -            25/12/2024 - 16:03",
+            "link": "/thong-bao-lich-dkhp-va-tkb-du-kien-cac-lop-chinh-quy-dai-tra-hk2-nam-hoc-2024-2025"
+        },
+        {
+            "content": "Thông báo khảo sát ý kiến SV về hoạt động giảng dạy của GV HKI - NH 2024-2025        -            18/12/2024 - 15:35",
+            "link": "/thong-bao-khao-sat-y-kien-sv-ve-hoat-dong-giang-day-cua-gv-hki-nh-2024-2025"
+        },
+        {
+            "content": "Thông báo: Sinh viên kiểm tra chuẩn quá trình ngoại ngữ trước khi đăng ký học phần HK2 năm học 2024-2025        -            12/12/2024 - 10:13",
+            "link": "/thong-bao-sinh-vien-kiem-tra-chuan-qua-trinh-ngoai-ngu-truoc-khi-dang-ky-hoc-phan-hk2-nam-hoc-2024"
+        },
+        {
+            "content": "Thông báo nhận đơn nhập học lại, bảo lưu, chuyển ngành, song ngành, thôi học HK 2 2024-2025        -            10/12/2024 - 10:44",
+            "link": "/thong-bao-nhan-don-nhap-hoc-lai-bao-luu-chuyen-nganh-song-nganh-thoi-hoc-hk-2-2024-2025"
+        },
+        {
+            "content": "Thông báo kế hoạch ĐKHP HK2 năm học 2024-2025        -            27/11/2024 - 10:07",
+            "link": "/thong-bao-ke-hoach-dkhp-hk2-nam-hoc-2024-2025"
+        }
+    ],
+    "tin_noi_bat": [
+        {
+            "content": "Thông báo về việc xét miễn các môn anh văn 1, 2 và 3 đợt 2 trong học kỳ 2 năm học 2024-2025 cho sinh viên chính quy chương trình đào tạo đại trà và chương trình chuẩn        -            17/02/2025 - 10:14",
+            "link": "/thong-bao-ve-viec-xet-mien-cac-mon-anh-van-1-2-va-3-dot-2-trong-hoc-ky-2-nam-hoc-2024-2025-cho-sinh"
+        },
+        {
+            "content": "Thông báo Kỳ thi Olympic Toán học sinh viên và học sinh toàn quốc năm học 2024-2025        -            11/10/2024 - 08:13",
+            "link": "/thong-bao-ky-thi-olympic-toan-hoc-sinh-vien-va-hoc-sinh-toan-quoc-nam-hoc-2024-2025"
+        },
+        {
+            "content": "Thông báo về việc đào tạo song ngành trình độ đại học hệ chính quy        -            01/10/2024 - 14:58",
+            "link": "/thong-bao-ve-viec-dao-tao-song-nganh-trinh-do-dai-hoc-he-chinh-quy"
+        },
+        {
+            "content": "Thông báo đăng ký lớp Quản trị sự kiện MM003.P11        -            04/09/2024 - 15:06",
+            "link": "/thong-bao-dang-ky-lop-quan-tri-su-kien-mm003p11"
+        },
+        {
+            "content": "Đăng ký các khóa học Google Career Certificate trên Coursera miễn phí dành cho Giảng viên        -            21/08/2024 - 15:19",
+            "link": "/dang-ky-cac-khoa-hoc-google-career-certificate-tren-coursera-mien-phi-danh-cho-giang-vien"
+        },
+        {
+            "content": "Thông báo về buổi tư vấn tuyển sinh Chương trình đào tạo trình độ thạc sĩ đợt 1 năm 2024        -            02/05/2024 - 11:35",
+            "link": "/thong-bao-ve-buoi-tu-van-tuyen-sinh-chuong-trinh-dao-tao-trinh-do-thac-si-dot-1-nam-2024"
+        },
+        {
+            "content": "Thông báo về việc thực hiện chuẩn quá trình ngoại ngữ theo Quy định đào tạo ngoại ngữ đối với hệ đại học chính quy từ học kỳ 1 năm học 2024-2025        -            25/01/2024 - 14:59",
+            "link": "/thong-bao-ve-viec-thuc-hien-chuan-qua-trinh-ngoai-ngu-theo-quy-dinh-dao-tao-ngoai-ngu-doi-voi-he-dai"
+        },
+        {
+            "content": "Thông báo danh sách và lịch thi tập trung Giữa kỳ học kỳ 1 năm học 2023-2024        -            10/10/2023 - 15:17",
+            "link": "/thongbao/thong-bao-danh-sach-va-lich-thi-tap-trung-giua-ky-hoc-ky-1-nam-hoc-2023-2024"
+        },
+        {
+            "content": "Thông báo về việc thu học phí học kỳ hè, năm học 2022-2023        -            06/07/2023 - 10:05",
+            "link": "/thongbao/thong-bao-ve-viec-thu-hoc-phi-hoc-ky-he-nam-hoc-2022-2023"
+        },
+        {
+            "content": "Lịch Thi Cuối Kỳ 2 Đơt 2 Năm Học 2022-2023 các lớp VB2        -            03/07/2023 - 11:12",
+            "link": "/thongbao/lich-thi-cuoi-ky-2-dot-2-nam-hoc-2022-2023-cac-lop-vb2"
+        }
+    ]
+}
