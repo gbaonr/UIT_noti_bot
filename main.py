@@ -88,7 +88,11 @@ def create_message(news, type="tbao_chung"):
         text = "🔥 Tin nổi bật 🔥 \n"
     for new in news:
         text += f"<b>{new['content']}</b>\n"
-        text += f"Link: https://student.uit.edu.vn/{new['link']}\n"
+        # text += f"Link: https://student.uit.edu.vn/{new['link']}\n"
+        link = f"https://student.uit.edu.vn/{new['link']}"
+        display_text = "See more"
+        message = f'<a href="{link}">{display_text}</a>'
+        text += f"{message}\n"
         text += "-" * 20 + "\n"
     return text
 
