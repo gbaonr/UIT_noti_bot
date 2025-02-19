@@ -95,11 +95,11 @@ def save_last_notification(notification):
 
 def create_message(news, type="tbao_chung"):
     if type == "tbao_chung":
-        text = "🌟 THÔNG BÁO CHUNG 🌟\n"
+        text = f"<b>🌟 THÔNG BÁO CHUNG 🌟 </b>\n"
     else:
-        text = "🔥 TIN NỔI BẬT 🔥 \n"
+        text = f"<b>🔥 TIN NỔI BẬT 🔥 </b>\n"
     for new in news:
-        text += f"<b>{new['content']}</b>\n"
+        text += f"{new['content']}\n"
         link = f"https://student.uit.edu.vn/{new['link']}"
         display_text = "See more"
         message = f'<a href="{link}">{display_text}</a>'
@@ -173,7 +173,7 @@ async def background_task():
         except Exception as e:
             print(f"🚨🚨🚨 Error: {e}")
             print(f"\t- Retrying in 5 minutes")
-            time.sleep(300)
+            await asyncio.sleep(300)
             continue
 
         time_gap = 8
